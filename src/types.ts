@@ -9,6 +9,12 @@ export interface UserData {
   password: string;
 }
 
+export interface Params {
+  gameId: number;
+  coords: CellCoords;
+  players: DefinedAttackers;
+}
+
 export type Player = {
   wsId: number;
   name: string;
